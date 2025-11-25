@@ -4,11 +4,16 @@ Walk-forward portfolio optimization with transaction cost modeling.
 
 ## What it does
 
-- Optimizes weights across NIFTY, S&P 500, and Gold
-- Uses 36-month rolling lookback windows
-- Rebalances annually with 1-period execution delay
-- Estimates transaction costs using Almgren-Chriss market impact model
-- Applies Ledoit-Wolf shrinkage to covariance estimation
+Optimizes a 3-asset portfolio:
+- **NIFTY 50** - Indian equity index (converted to USD)
+- **S&P 500** - US equity index
+- **Gold** - Commodity / safe haven asset
+
+The optimizer maximizes Sharpe ratio using:
+- 36-month rolling lookback windows
+- Annual rebalancing with 1-period execution delay
+- Almgren-Chriss market impact cost model
+- Ledoit-Wolf covariance shrinkage
 
 ## Usage
 
