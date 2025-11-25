@@ -28,11 +28,15 @@ Optional: `numba` (for faster impact calculations), `pyarrow` (for parquet expor
 
 ## Data
 
-Requires two NIFTY 50 CSV files in the same directory:
+All data is fetched from Yahoo Finance:
+- S&P 500 (^GSPC)
+- Gold futures (GC=F)
+- USD/INR exchange rate (INR=X)
+- 13-week T-bill rate (^IRX)
+
+NIFTY 50 data is loaded from local CSV files:
 - `Nifty 50 Historical Data (1).csv`
 - `Nifty 50 Historical Data (2).csv`
-
-S&P 500 and Gold data are fetched from Yahoo Finance.
 
 ## Output
 
