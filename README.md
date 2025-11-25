@@ -53,8 +53,7 @@ results = engine.run()
 
 ## Files
 
-- `portfolio.py` — Full version with comments
-- `portfolio1.py` — Compact version
+- `portfolio.py` — Main script
 
 ## Config
 
