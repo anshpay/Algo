@@ -51,10 +51,6 @@ engine = BacktestEngine(prices, config, rf_series=rf_series)
 results = engine.run()
 ```
 
-## Files
-
-- `portfolio.py` — Main script
-
 ## Config
 
 | Parameter | Default | Description |
