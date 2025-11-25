@@ -84,10 +84,6 @@ Default spreads: SPX 2bps, NIFTY 12bps, GOLD 4bps
 - Simplified ADV assumptions
 - No intraday modeling
 
-## Requirements
-
-numpy, pandas, scipy, yfinance, matplotlib
-
 ## License
 
 MIT
